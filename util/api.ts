@@ -59,4 +59,4 @@ export const askQuestion = async (question) => {
   } else {
     throw new Error('Something went wrong on API server!')
   }
-}
+}
