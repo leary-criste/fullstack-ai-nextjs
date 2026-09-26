@@ -51,4 +51,4 @@ export const PATCH = async (request: Request, { params }) => {
   update(['/journal'])
 
   return NextResponse.json({ data: { ...entry, analysis: savedAnalysis } })
-}
+}
